@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*config padrão*/
+
+/*header*/
+
+.header{
+    height: 20vh;
+}
+
+.header h1{
+    text-align: center;
+    line-height: 20vh;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+/*final header*/
+
+/*começo section*/
+
+.simulador{
+    height: 72vh;
+}
+
+.simulador h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+.simulador h1{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.simulador h3{
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+form{
+    border: 1px solid black;
+    padding: 70px 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form label{
+    font-size: 30px;
+}
+
+form input{
+    padding: 8px 12px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+form input[type=number]{
+    width: 230px;
+}
+
+form .form-right p{
+    font-size: 35px;
+    line-height: 70px;
+    text-align: justify;
+}
+
+button{
+    padding: 8px 32px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 32px;
+    background-color: white;
+}
+
+/*final section*/
+
+/*começo footer*/
+
+.footer{
+    height: 8vh;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 8vh;
+    font-size: 19px;
+}
+
+/*final do footer*/
+
+/*começo do media screean*/
+
+@media screen and (max-width: 768px){
+    .simulador h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        height: 10vh;
+    }
+
+    .header h1{
+        line-height: 10vh;
+    }
+
+    .footer{
+        display: none;
+    }
+}
